@@ -38,30 +38,39 @@
           </nav>
     </header>
 
-    <!--Main-->
     <main>
-        <!--Register-->
-        <form>
-            <div class="form-group">
-              <label for="nom">Nom</label>
-              <input type="text" class="form-control" id="Nom" placeholder="Nom">
-            </div>
-            <div class="form-group">
-              <label for="prenom">Prenom</label>
-              <input type="text" class="form-control" id="prenom" placeholder="Prenom">
-            </div>
-            <div class="form-group">
-                <label for="mail">Adresse mail</label>
-                <input type="email" class="form-control" id="mail" placeholder="Entrer votre email">
-            </div>
-            <div class="form-group">
-                <label for="motdepasse">Mot de passe</label>
-                <input type="password" class="form-control" id="motdepasse" placeholder="Mot de passe">
-            </div>
-            <a href="login.html"><button type="submit" class="btn btn-dark">Valider</button></a>
-          </form>
-    </main>    
-
+        <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Nom</th>
+                <th scope="col">Prenoms</th>
+                <th scope="col">Email</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>William</td>
+                <td>Boulhol</td>
+                <td>test@test.fr</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Pierre</td>
+                <td>Durif</td>
+                <td>test@test.fr</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Larry</td>
+                <td>the Bird</td>
+                <td>test@test.fr</td>
+              </tr>
+            </tbody>
+          </table>
+    </main>
+    
     <!--Bootstrap-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
 </body>
